@@ -1,0 +1,82 @@
+/* CSS Style Sheet */
+
+/* Body */
+body {
+    background-color: blue;
+}
+
+/* Navbar */
+.navbar {
+    max-height: 60px;
+}
+.navigation .navbar-brand {
+    color: white;
+    margin-left: 0px;
+    padding: inherit;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar {
+    background-color: white;
+    font-size: 12px; 
+}
+
+.dropdown-item {
+    color: blue !important;
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: lightblue !important;
+}
+.nav-link:hover {
+    background-color: lightblue !important;
+}
+.navbar-brand:hover {
+  color: lightblue !important;
+}
+a {
+    color: blue;
+    font-size: 12px;
+}
+
+/* Images */
+img {
+    width:100% !important;
+    height:100% !important;
+}
+.active, .panel:hover {
+    border-color: blue;
+    border-style: solid;
+}
+.vizualization {
+    width:50% !important;
+    height:50% !important;
+}
+
+/* Title */
+.title {
+    color: blue;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+/* Paragraph */
+p {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+/* Box */
+.box {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 10px 30px 10px;
+    color: blue;
+    background-color: white;
+}
+
+/* Table */
+.table {
+    font-size: 12px;
+    border-top-color: white !important;
+}
