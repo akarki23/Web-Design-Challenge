@@ -13,6 +13,7 @@ body {
   color: white;
   margin-left: 0px;
   padding: inherit;
+  background-color: white;
   font-family: 'Times New Roman', Times, serif;
 }
 .navbar {
@@ -99,9 +100,5 @@ p {
   }
   button {
     margin-right: 20px;
-  }
-  button:focus {
-    outline: 1px dotted;
-    outline: auto 5px;
   }
 }
